@@ -1,0 +1,103 @@
+/* Requirement 2: HTML background gradient */
+html {
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
+
+/* Requirement 3: Body element box styling, margins, padding, border, and shadow */
+body {
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 100%;
+    width: 1000px;
+    background-color: white;
+    margin: 15px auto; /* top/bottom 15px, left/right auto to center */
+    padding: 15px 1.5em; /* top/bottom 15px, left/right 1.5em */
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+}
+
+/* Requirement 4: Body background image on the right, repeat-y, fixed */
+body {
+    background-image: url('../images/otter.jpg'); /* or your background image asset */
+    background-repeat: repeat-y;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+/* Requirement 6: Hover and focus state for links */
+a:focus, a:hover {
+    font-style: italic;
+    color: orangered;
+}
+
+/* Requirement 7: Header h1 styles */
+header h1 {
+    font-size: 175%;
+    color: maroon;
+    text-indent: 30px;
+}
+
+/* Requirement 8: Header h2 styles */
+header h2 {
+    font-size: 130%;
+    color: #800000;
+    text-indent: 30px;
+}
+
+/* Requirement 9: Float image to the left */
+header img {
+    float: left;
+}
+
+/* Requirement 8 (from previous steps): Align image left margin with other content */
+header img {
+    margin-left: 2em; /* Aligns with the left padding/margins of h3, nav, and div */
+}
+
+/* Requirement 10: Text shadow for shadow class */
+.shadow {
+    text-shadow: 2px 2px 2px rgb(128, 0, 0);
+}
+
+/* Requirement 11: Clear property to stop the main from floating right of the image */
+main {
+    clear: left;
+}
+
+/* Requirement 5: Main h3 styles */
+main h3 {
+    margin: 3em 2em 1.5em 2em; /* top, right, bottom, left */
+    font-size: 105%;
+    border: 5px double blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+}
+
+/* Requirement 6: Main nav styles */
+main nav {
+    margin: 1.5em 2em;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
+}
+
+/* Requirement 13: Line height for the list id */
+#list {
+    line-height: 1.5em;
+}
+
+/* Requirement 7: Div with contact class styles */
+div.contact {
+    margin: 1.5em 2em 0em 2em; /* top, right, bottom, left */
+    border: 5px dotted blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+}
+
+/* Requirement 14: Footer copyright paragraph styles */
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;

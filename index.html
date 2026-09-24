@@ -1,32 +1,42 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" contents="Jacob Duarte's personal web site">
-    <meta name="keywords" contents="jacob, duarte, shsu, mis, coba, faculty, student">
+    <meta name="description" content="Jacob Duarte's personal web site">
+    <meta name="keywords" content="jacob, duarte, shsu, mis, coba, faculty, student">
     <title>Jacob Duarte's personal web site</title>
+    <!-- Requirement 1: External Style Sheet Link -->
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <header>
-        <img src="/images/otter.jpg" alt="an otter" height="100">
+        <img src="images/otter.jpg" alt="Jacob Duarte profile picture" height="100">
+        <!-- Requirement 2: Added class="shadow" -->
+        <h1 class="shadow">Welcome to my web site!</h1>
+        <h2 class="shadow">jacobnd04.github.io</h2>
     </header>
-    <main>
-        <h1>"Welcome to my website"</h1>
-        <h2>jacobnd04.github.io</h2>
-        <h3>lorem ipsum dolor sit amet consectetuer adipiscing elit</h3>
+   <main>
+        <h3>Information Systems student at Sam Houston State University with a passion for technology, web development, continuous learning, problem-solving, data analytics, database management, cloud computing, software engineering principles, cybersecurity awareness, project management methodologies, and building responsive user interfaces for modern web applications.</h3>
+        
         <nav>
-            <ul>
-                <li>Education<li>
+            <ul id="list">
+                <li>Education</li>
                 <li>Work Experience</li>
                 <li>Knowledge and Skills</li>
                 <li>Certifications</li>
                 <li><a href="#">Course Projects</a></li>
-            <ul>
+            </ul>
         </nav>
-        <p>Click here to download <a href="files/resume.pdf"> resume.</a></p>
-        <p>Click here to go to my <a href="https://www.ssbwiki.com/Smasher:Jakarot"> profile.</a></p>
-        <p>Contact me at <em><a href="mailto:jnd051@shsu.edu">jnd051@shsu.edu</a></em> for any inquiries.</p>
+       <div class="contact">
+            <p>Click here to download <a href="files/resume.pdf">resume.</a></p>
+            <p>Click here to go to my <a href="https://www.ssbwiki.com/Smasher:Jakarot" target="_blank" rel="noopener noreferrer">profile.</a></p>
+            <p>Contact me at <em><a href="mailto:jnd051@shsu.edu">jnd051@shsu.edu</a></em> for any inquiries.</p>
+        </div>
     </main>
-</body>
-</html>
+    <footer>
+        <br>
+        <hr>
+        <p class="copyright">&copy; 2026 Jacob Duarte. All rights reserved.</p>
+    </footer>
