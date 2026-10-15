@@ -1,0 +1,37 @@
+!
+<html lang="en">
+<head>
+</head>
+<body>
+
+        <div>
+          <p>Jacob Duarte</p>	 
+
+        </div> 
+
+        <input id="menu-toggle" type="checkbox"> 
+
+        <label class='menu-button-container' for="menu-toggle"> 
+
+        <div class='menu-button'></div> 
+
+        </label> 
+
+         <ul class="menu">
+            <li><a href="index9.html>">Home</a></li>
+            <li><a href="index9.html>">Resume</a></li>
+            <li><a href="index9.html>">Projects</a></li>
+            <li><a href="index9.html>">Experiences</a></li>
+            <li><a href="index9.html>">Contact Us</a></li>
+         </ul>
+    <section>
+    <article>
+        <h2>About Me</h2>
+        <img src="images/universe.jpg" alt="Universe image" title="Universe image">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id autem, aut consequatur porro adipisci quibusdam quia dolorum alias sit voluptate non voluptatibus explicabo! Ex consectetur blanditiis ratione. Tempore, quisquam.</p>
+    </article>
+    <footer>
+        <p>&copy; Jacob Duarte <a href="https://www.linkedin.com" target="_blank">Linkedin</a></p>
+    </footer>
+</body>
+</html>
